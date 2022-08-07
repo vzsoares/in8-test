@@ -6,11 +6,21 @@
 
 ### Resolução :
 
-Localizado no arquivo `/funcao_recursiva` está a resolução para o problema descrito acima. Onde a partir de `n` é procurado de forma crescente o primeiro numero que satisfaz a condição descrita.
+Localizado no arquivo `/funcao_recursiva.js` está a resolução para o problema descrito acima. Onde a partir de `n` é procurado de forma crescente o primeiro numero que satisfaz a condição descrita.
 
 > é procurado a partir do numero 1 por padrão pois 0 satisfaz a condição e retorna a função.
 >
 > > para procurar de forma decrescente basta mudar o operador da linha 3 de `+` para `-` e chamar a função com o valor `n` desejado.
+
+### execução:
+
+```
+$ node funcao_recursiva.js
+```
+
+<br/>
+
+---
 
 <br/>
 
@@ -20,4 +30,10 @@ Localizado no arquivo `/funcao_recursiva` está a resolução para o problema de
 
 ### Resolução :
 
-Localizado no arquivo `/logica_de_programacao` está a resolução para o problema descrito acima. Onde a partir de `n` por padrão `1000` é somado a `result` todos os números que satisfazem a condição descrita e caso incompatível apenas decrescemos `n` ate chegar a `0` e ao final é retornado a soma `result`.
+Localizado no arquivo `/logica_de_programacao.js` está a resolução para o problema descrito acima. Onde a partir de `n` por padrão `1000` é somado a `result` todos os números que satisfazem a condição descrita e caso incompatível apenas decrescemos `n` ate chegar a `0` e ao final é retornado a soma `result`.
+
+### execução:
+
+```
+$ node logica_de_programacao.js
+```
